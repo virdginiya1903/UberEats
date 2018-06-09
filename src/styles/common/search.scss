@@ -1,0 +1,46 @@
+.search__form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.search__submit {
+  background: url("../images/common/Stores/search-2.png") no-repeat;
+  width: rem(16px);
+  height: rem(16px);
+
+  border: none;
+  cursor: pointer;
+
+  padding: 0;
+  display: inline-block;
+  @include md {
+    background: url("../images/common/Stores/search.svg") no-repeat;
+    width: rem(25px);
+    height: rem(25px);
+  }
+}
+.search {
+  position: relative;
+  border-bottom: rgba(117, 117, 117, 0.3) 1px solid;
+  margin-bottom: rem(24px);
+  @include md {
+    margin-bottom: rem(54px);
+  }
+}
+.search__input {
+  background: transparent;
+  border: 0 none;
+  background-clip: padding-box;
+  outline: none;
+  width: 100%;
+  padding-left: rem(8px);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  line-height: rem(24px);
+  font-size: rem(13px);
+
+  @include md {
+    font-size: rem(16px);
+  }
+}

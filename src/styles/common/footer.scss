@@ -1,0 +1,169 @@
+.footer {
+  background: $grey;
+  height: rem(862px);
+  margin-top: rem(-862px);
+  position: relative;
+  padding-top: rem(56px);
+  @include md {
+    height: rem(552px);
+    margin-top: rem(-552px);
+  }
+}
+.footer__logo {
+  margin-bottom: rem(40px);
+  border-bottom: rgba(255, 255, 255, 0.4) 1px solid;
+}
+.logo {
+  display: block;
+}
+.logo__icon-footer {
+  margin-bottom: rem(40px);
+}
+.language {
+  background: #3b3b3b;
+  border-radius: 2px;
+  max-width: rem(173px);
+  padding-top: rem(12px);
+  padding-bottom: rem(12px);
+  justify-content: space-around;
+  display: flex;
+}
+.language__text {
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 13px;
+
+  color: #ffffff;
+}
+.language__img {
+  background: url(../images/common/Stores/world.svg) no-repeat 1px 0px;
+  width: rem(16px);
+  height: rem(16px);
+  display: inline-block;
+}
+.language__btn {
+  display: inline-block;
+}
+.language__submit {
+  background: url("../images/common/Stores/if_icon-ios7-arrow-back_211686.svg")
+    no-repeat 0px 4px;
+  width: rem(16px);
+  height: rem(16px);
+
+  border: none;
+
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.about__language {
+  margin-bottom: rem(32px);
+}
+.hashtag__green {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+
+  color: #49a144;
+}
+.hashtag {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+.about__hashtag {
+  margin-bottom: rem(19px);
+}
+
+.socials__link {
+  display: block;
+}
+.socials__item {
+  display: inline-block;
+}
+.socials__svg {
+  fill: #ffffff;
+  &:hover {
+    fill: $green;
+  }
+}
+.socials__item {
+  padding-right: rem(10px);
+}
+.about__one {
+  margin-bottom: 42px;
+}
+.about__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 13px;
+
+  color: #ffffff;
+}
+.about__item {
+  margin-bottom: 23px;
+}
+.about {
+  margin-bottom: rem(24px);
+  border-bottom: rgba(255, 255, 255, 0.4) 1px solid;
+}
+.about__three {
+  margin-bottom: rem(40px);
+}
+.app__link {
+  display: block;
+}
+.app__img {
+  display: none;
+}
+.store {
+  background: url(../images/common/appstore_logo.png) no-repeat;
+  height: 40px;
+}
+.google {
+  background: url(../images/common/en_badge_web_generic-cf6dad406f.png)
+    no-repeat;
+  height: 40px;
+}
+.app__item {
+  min-width: 124px;
+  margin-right: 8%;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+.app__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: rem(24px);
+}
+.app {
+  border-bottom: rgba(255, 255, 255, 0.4) 1px solid;
+  margin-bottom: rem(40px);
+}
+.copyright__text,
+.copyright__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 11px;
+  color: #ffffff;
+}
+.copyright__text {
+  margin-bottom: rem(20px);
+}
+.copyright__text--last {
+  margin-bottom: 0;
+}

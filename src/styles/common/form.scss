@@ -1,0 +1,81 @@
+.form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.maincontent__form {
+  @include md {
+    display: none;
+  }
+}
+.header__form {
+  display: none;
+  @include md {
+    display: block;
+    margin-bottom: 0;
+  }
+}
+.form__link {
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding-left: rem(16px);
+  padding-right: rem(16px);
+  padding-top: rem(12px);
+  padding-bottom: rem(12px);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: rem(13px);
+  display: block;
+  color: #1d1d1d;
+  @include md {
+    display: inline-block;
+  }
+}
+.form__input {
+  padding-left: rem(32px);
+  padding-right: rem(16px);
+  padding-top: rem(12px);
+  padding-bottom: rem(12px);
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: rem(13px);
+  background: transparent;
+  color: #1d1d1d;
+  position: relative;
+  background: url(../images/common/Stores/location-1.svg) no-repeat 10px 11px;
+  @include md {
+    display: inline-block;
+  }
+}
+.form__block {
+  margin-right: rem(16px);
+  &:last-child {
+    margin-right: 0;
+  }
+  @include md {
+    display: inline-block;
+    margin-right: rem(9px);
+  }
+}
+.form__title {
+  margin-bottom: rem(8px);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 11px;
+
+  color: #626262;
+  @include md {
+    display: inline-block;
+    margin-right: rem(9px);
+  }
+}
+.form__title--none {
+  display: none;
+}

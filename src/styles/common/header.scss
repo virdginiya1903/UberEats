@@ -1,0 +1,78 @@
+.header {
+  height: 72px;
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+  background-color: $white;
+  margin-bottom: rem(40px);
+}
+
+.header__top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.menu__sign {
+  border-radius: rem(2px);
+  margin-right: rem(12px);
+}
+
+.menu__reg {
+  margin-right: rem(4px);
+}
+
+.menu__button--white {
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding-left: rem(20px);
+  padding-right: rem(20px);
+  padding-top: rem(14px);
+  padding-bottom: rem(14px);
+  display: block;
+}
+
+.menu__button--black {
+  border-radius: rem(5px);
+  background-color: $grey;
+  padding-left: rem(16px);
+  padding-right: rem(16px);
+  padding-top: rem(14px);
+  padding-bottom: rem(14px);
+  display: block;
+}
+
+.menu__link--black {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 13px;
+  color: $grey;
+}
+
+.menu__link--white {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 13px;
+  color: $white;
+}
+.logo__icon {
+  @include lg {
+    display: none;
+  }
+}
+.logo-header {
+  @include lg {
+    background: url(../images/common/Restaurant/logo.svg) no-repeat;
+    display: block;
+    width: 121px;
+    height: 14px;
+  }
+}

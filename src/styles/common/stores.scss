@@ -1,0 +1,41 @@
+.card__item {
+  margin-bottom: rem(36px);
+}
+.card__img {
+  width: 100%;
+}
+.card__content {
+  text-align: left;
+}
+
+.card__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+
+  color: #1d1d1d;
+}
+.card__pic {
+  margin-bottom: 14px;
+}
+
+.card__description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 14px;
+
+  color: #626262;
+}
+.card__time {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 13px;
+
+  color: #1d1d1d;
+}

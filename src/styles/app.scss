@@ -1,0 +1,18 @@
+$sm: 576px;
+$md: 768px;
+$lg: 991px;
+$xl: 1200px;
+
+@import "common/media";
+@import "common/config";
+@import "common/normalize";
+@import "common/color";
+@import "common/mixins";
+@import "common/fonts";
+@import "common/adjustment";
+@import "common/header";
+@import "common/maincontent";
+@import "common/footer";
+@import "common/search.scss";
+@import "common/form.scss";
+@import "common/stores.scss";
