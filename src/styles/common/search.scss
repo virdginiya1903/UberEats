@@ -4,7 +4,7 @@
   margin-bottom: 12px;
 }
 .search__submit {
-  background: url("../images/common/Stores/search-2.png") no-repeat;
+  background: url("../images/common/stores/search-2.png") no-repeat;
   width: rem(16px);
   height: rem(16px);
 
@@ -14,7 +14,7 @@
   padding: 0;
   display: inline-block;
   @include md {
-    background: url("../images/common/Stores/search.svg") no-repeat;
+    background: url("../images/common/stores/search.svg") no-repeat;
     width: rem(25px);
     height: rem(25px);
   }
